@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input id="timer" type="time" name="time" id="itime" step="1" value="00:00:00">
+        <div id="controls">
+            <button id="startPause"><img id="start" src="src/not_started.svg"></button>
+            <button id="stop"><img id="stop" src="src/stop.svg"></button>
+        </div>
+    </div>
+    <div id="alert">
+        O tempo acabou!
+        <button id="confirm">OK</button>
+    </div>
+    <div id="alert2">
+        O timer está zerado!
+        <button id="confirm2">OK</button>
+    </div>
+
+    <audio>
+        <!-- Audio vai ser inserido dinamicamente -->
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
